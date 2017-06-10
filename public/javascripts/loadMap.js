@@ -1,8 +1,5 @@
 // Leaflet
 
-// require leaflet.js
-var L = require('leaflet');
-
 // specify the path to the leaflet images folder
 L.Icon.Default.imagePath = 'node_modules/leaflet/dist/images/';
 

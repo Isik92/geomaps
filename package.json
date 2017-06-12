@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "browserify app.js -o bundle.js",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "lint": "jshint **.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
@@ -19,6 +20,7 @@
     "leaflet-map": "^0.2.1",
     "less": "^2.7.2",
     "less-middleware": "~2.2.0",
+    "lint": "^1.1.2",
     "morgan": "~1.8.1",
     "npm": "^5.0.3",
     "pug": "^2.0.0-rc.2",
